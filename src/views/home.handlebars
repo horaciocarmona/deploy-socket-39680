@@ -1,0 +1,48 @@
+{{!-- <script type="text/x-handlebars-template" id="template-listado"></script> --}}
+<div>
+   <h3>{{tituloAlta}} </h3>
+</div>
+<div>
+    {{!-- <h1>hola {{mensaje}}</h1> --}}
+    <div>
+         <p>title: <input type="text" class="form-control" id="title" placeholder=""></p>
+         <p>description: <input type="text" class="form-control" id="description" placeholder=""></p>
+         <p>price: 
+            <input type="text" class="form-control" id="price" placeholder="">
+         </p>
+         <p>thumpbnail: 
+            <input type="text" class="form-control" id="thumpbnail" placeholder="">
+         </p>
+         <p>code: 
+            <input type="text" class="form-control" id="code" placeholder="">
+         </p>
+         <p>stock: 
+            <input type="text" class="form-control" id="stock" placeholder="">
+         </p>
+         <p>status: 
+            <input type="text" class="form-control" id="status" placeholder="">
+         </p>
+         <p>category: 
+            <input type="text" class="form-control" id="category" placeholder="">
+         </p>
+         {{!-- <button type="button" onclick="creaProducto()" class="btn btn-dark w-100 fs-4 mb-4 mt-3 botonEnvio" >Validar Alta</button> --}}
+         <button type="button" id="carga">enviar Alta</button>
+
+    </div>
+<div>
+   <h3>{{tituloEliminacion}} </h3>
+   <p>id de producto: <input type="text" class="form-control" id="idProducto" placeholder=""></p>
+   <button type="button" id="eliminacion">enviar Eliminacion</button>
+
+</div>
+
+    {{!-- {{> itemCount }}
+     <p>hola {{user.nombre}}</p>
+     {{#if isTutor}}
+        <p>sos tutor</p>
+     {{else}}
+        <p>no sos tutor</p>
+     {{/if}}       --}}
+</div>
+
+

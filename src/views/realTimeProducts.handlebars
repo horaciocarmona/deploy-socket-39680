@@ -1,0 +1,10 @@
+<h3>Listado de Productos</h3>
+                <div id="idTextoTarea">
+                    <p>productos</p>
+                    <ul class="listadoUL">
+                        {{#each listProducts}}
+                        <li>{{this.id}},{{this.title}}</li>
+                        {{/each}}
+                    </ul>
+                    <!-- <button type="button" class="btn btn-dark w-100 fs-4 mb-4 mt-3 botonEnvio">Enviar</button> -->
+                </div>
